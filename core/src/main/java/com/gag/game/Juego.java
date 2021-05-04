@@ -37,9 +37,9 @@ public class Juego extends Game {
 		vista= new FitViewport(ANCHO,ALTO,camara);
 		sb=new SpriteBatch();
 
-		musica= Gdx.audio.newMusic(Gdx.files.internal("Highbeat.ogg"));
+		musica= Gdx.audio.newMusic(Gdx.files.internal("ACDC_TNT.ogg"));
 		musica.setLooping(true);
-		musica.setVolume(1.0f);
+		musica.setVolume(0.3f);
 		musica.play();
 
 		cambiarPantalla(null,new PantallaLoading());
